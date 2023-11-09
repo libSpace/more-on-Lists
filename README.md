@@ -1,7 +1,7 @@
 # List Methods in Python
 
 - [Introduction](#introduction)
-- [list.append(x)](#append)
+- [list.append(x)](#list.append(x))
 - [list.extend(iterable)](#extend)
 - [list.insert(i, x)](#insert)
 - [list.remove(x)](#remove)
@@ -11,7 +11,7 @@
 - [list.count(x)](#count)
 - [list.sort(key=None, reverse=False)](#sort)
 - [list.reverse()](#reverse)
-- [list.copy()](#copy)
+- [list.copy()](#list.copy())
 
 ## Introduction
 The list data type in Python comes with several built-in methods. Here's an overview of these methods:
