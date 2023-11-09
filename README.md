@@ -1,17 +1,17 @@
 # List Methods in Python
 
 - [Introduction](#introduction)
-- [list.append(x)](#list.append(x))
-- [list.extend(iterable)](#extend)
-- [list.insert(i, x)](#insert)
-- [list.remove(x)](#remove)
-- [list.pop([i])](#pop)
-- [list.clear()](#clear)
-- [list.index(x[, start[, end]])](#index)
-- [list.count(x)](#count)
-- [list.sort(key=None, reverse=False)](#sort)
-- [list.reverse()](#reverse)
-- [List.copy()](#list.copy())
+- [list.append(x)](#list-appendx)
+- [list.extend(iterable)](#list-extenditerable)
+- [list.insert(i, x)](#list-inserti-x)
+- [list.remove(x)](#list-removex)
+- [list.pop([i])](#list-popi)
+- [list.clear()](#list-clear)
+- [list.index(x[, start[, end]])](#list-indexx-start-end)
+- [list.count(x)](#list-countx)
+- [list.sort(key=None, reverse=False)](#list-sortkeynone-reversefalse)
+- [list.reverse()](#list-reverse)
+- [list.copy()](#list-copy)
 
 ## Introduction
 The list data type in Python comes with several built-in methods. Here's an overview of these methods:
@@ -48,5 +48,3 @@ Reverse the elements of the list in place.
 
 ## list.copy()
 Return a shallow copy of the list. Equivalent to `a[:]`.
-
-
