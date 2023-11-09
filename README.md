@@ -11,7 +11,7 @@
 - [list.count(x)](#count)
 - [list.sort(key=None, reverse=False)](#sort)
 - [list.reverse()](#reverse)
-- [list.copy()](#list.copy())
+- [List.copy()](#list.copy())
 
 ## Introduction
 The list data type in Python comes with several built-in methods. Here's an overview of these methods:
