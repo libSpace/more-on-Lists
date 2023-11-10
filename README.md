@@ -524,6 +524,55 @@ In Python, regular expressions, often denoted as regex, serve as a robust mechan
 Regular expressions in Python provide a powerful tool for string manipulation, text parsing, and pattern matching. Understanding and using regex can greatly enhance text processing capabilities in Python programs.
 
 # Data Structures
+ data structures in Python include:
+
+Python provides a variety of built-in data structures that can be used to organize and manipulate data efficiently. Some of the key data structures in Python include:
+
+1. **Lists:**
+   - Ordered, mutable sequences.
+   - Example: `my_list = [1, 2, 3, 'a', 'b']`
+
+2. **Tuples:**
+   - Ordered, immutable sequences.
+   - Example: `my_tuple = (1, 2, 3, 'a', 'b')`
+
+3. **Sets:**
+   - Unordered collections of unique elements.
+   - Example: `my_set = {1, 2, 3, 'a', 'b'}`
+
+4. **Dictionaries:**
+   - Unordered collections of key-value pairs.
+   - Example: `my_dict = {'key1': 'value1', 'key2': 'value2'}`
+
+5. **Strings:**
+   - Ordered, immutable sequences of characters.
+   - Example: `my_string = "Hello, World!"`
+
+6. **Arrays (from the array module):**
+   - Homogeneous, fixed-size sequences.
+   - Example: `import array; my_array = array.array('i', [1, 2, 3, 4])` (here, 'i' represents integer type)
+
+7. **Queues (from the queue module):**
+   - Implements the queue data structure.
+   - Example: `from queue import Queue; my_queue = Queue()`
+
+8. **Stacks:**
+   - LIFO (Last In, First Out) structures.
+   - Can be implemented using lists or the `collections.deque` class.
+
+9. **Heaps (from the heapq module):**
+   - Implements the heap queue algorithm.
+   - Example: `import heapq; my_heap = [3, 1, 4, 1, 5, 9, 2]; heapq.heapify(my_heap)`
+
+10. **Linked Lists:**
+   - Not a built-in type, but can be implemented using custom classes.
+   - Consists of nodes, where each node contains data and a reference to the next node.
+
+11. **Deques (from the collections module):**
+   - Double-ended queues that support fast O(1) appends and pops from both ends.
+   - Example: `from collections import deque; my_deque = deque([1, 2, 3])`
+
+These data structures serve different purposes, and the choice of which one to use depends on the specific requirements of your program. Python's built-in data structures, along with the extensive standard library, provide a powerful foundation for working with data in a variety of applications.
 
 ## Pyhton Lists
 
